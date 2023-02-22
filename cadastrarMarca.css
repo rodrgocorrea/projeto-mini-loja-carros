@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(127, 255, 212);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.ulMenu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ulMenu li {
+  margin-right: 20px;
+}
+.ulMenu li:last-child {
+  margin-right: 0;
+}
+section, div {
+  background-color: antiquewhite;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 30px;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 1px;
+}
+
+input,
+textarea {
+  margin: 1px;
+  padding: 5px;
+  background-color: #f7f7f7;
+  color: black;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #6ab4c6;
+  box-shadow: 0 0 4px rgba(106, 180, 198, 0.5);
+}
+input:hover,
+textarea:hover {
+  background-color: #ebebeb;
+}
+button {
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3ade76;
+}
+
+button:hover {
+  background-color: aquamarine;
+}

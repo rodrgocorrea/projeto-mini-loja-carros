@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar Veiculos</title>
+    <link rel="stylesheet" href="/teste/cadastrarVeiculo.css" />
+  </head>
+  <body>
+    <header class="menu">
+      <nav>
+        <ul class="ulMenu">
+          <li><a href="/teste/index.html">Inicio</a></li>
+          <li><a href="/teste/cadastrarMarca.html">Marca</a></li>
+          <li><a href="/teste/cadastrarModelo.html">Modelo</a></li>
+          <li><a href="/teste/cadastrarVeiculo.html">Veiculo</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Cadastro de Veículos</h1>
+
+      <form id="formulario">
+        <label  for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" /><br />
+
+        <label  for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" /><br />
+
+        <label  for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" /><br />
+
+        <label  for="km">Km:</label>
+        <input type="number" id="km" name="km" /><br />
+
+        <label  for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" /><br />
+
+        <label  for="cor">Cor:</label>
+        <input type="text" id="cor" name="cor" /><br />
+
+        <button type="button" onclick="cadastrarVeiculo()">Cadastrar</button>
+      </form>
+    </section>
+
+    <script src="/teste/cadastrarVeiculo.js"></script>
+  </body>
+</html>

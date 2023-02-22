@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastrar modelos</title>
+    <link rel="stylesheet" href="/teste/cadastrarModelo.css">
+   
+  </head>
+  <body>
+    <header class="menu">
+    <nav>
+      <ul class="ulMenu">
+        <li><a href="/teste/index.html">Inicio</a></li>
+        <li><a href="/teste/cadastrarMarca.html">Marca</a></li>
+        <li><a href="/teste/cadastrarModelo.html">Modelo</a></li>
+        <li><a href="/teste/cadastrarVeiculo.html">Veiculo</a></li>
+      </ul>
+    </nav>
+    </header>
+    <section>
+    <h1>Cadastrar modelos.</h1>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id='inputName'name="nome"/><br>
+    <Label>Marca:</Label>
+    <select name="marca" id="marca">
+      <option value="">Selecione</option>
+      <option value="Ford">Ford</option>
+      <option value="Vw">Vw</option>
+      <option value="Nissan">Nissan</option>
+      <option value="Chevrolet">Chevrolet</option>
+      <option value="Fiat">Fiat</option>
+      <option value="BMW">BMW</option>
+      <option value="Audi">Audi</option>
+      <option value="Renaut">Renaut</option>
+      <option value="Citroen">Citroen</option>
+      <option value="Mercedes">Mercedes</option>
+      <option value="Volvo">Volvo</option>
+      <option value="JAC">JAC</option>
+      
+    </select><br>
+
+    <button onclick="adicionarModelo()">Adicionar</button>
+
+    <h1>Modelos cadastrados.</h1>
+
+
+    <script src="/teste/testeModelo.js"></script>
+  </section>
+  </body>
+</html>
