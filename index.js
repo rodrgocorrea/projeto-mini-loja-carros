@@ -10,11 +10,11 @@ function listarVeiculos() {
 
     const imagem = document.createElement("img");
     imagem.src = veiculo.imagem;
-    imagem.alt = `${veiculo.marca} ${veiculo.modelo}`;
+    imagem.alt = `${veiculo.marca} ${veiculo.nome}`;
     card.appendChild(imagem);
 
     const marcaModelo = document.createElement("p");
-    marcaModelo.textContent = `${veiculo.marca} ${veiculo.modelo}`;
+    marcaModelo.textContent = `${veiculo.marca} ${veiculo.nome} ${veiculo.modelo}`;
     card.appendChild(marcaModelo);
 
     const km = document.createElement("p");
